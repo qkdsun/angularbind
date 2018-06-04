@@ -1,0 +1,9 @@
+<input type="text" value="Tom" (input)="doOnInput($event)">
+<button [disabled]="asd">点击</button>
+<button (click)="changeAsd()">禁用切换</button>
+<!--差值表达式-->
+<img src="{{imgUrl}}" alt="">
+<img [src]="imgUrl" alt="">
+
+<!--双向数据绑定-->
+<input type="text" [(ngModel)]="inputData"> {{inputData}}

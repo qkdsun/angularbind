@@ -1,0 +1,14 @@
+<label>
+    $event：
+	<input type="text" (input)="doOnInput($event)">
+</label>
+<label for="">
+	#myInput：
+	<input #myInput type="text" (input)="myINPUT(myInput)">
+</label>
+<!--响应式-->
+<label>
+	流：
+	<input type="text" [formControl]="searchInput">
+</label>
+
