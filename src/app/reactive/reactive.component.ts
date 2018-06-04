@@ -17,7 +17,7 @@ export class ReactiveComponent implements OnInit {
 	}
 	  
 	searchInput:FormControl = new FormControl();
-
+    valueList:number = 4;
  	ngOnInit() {
 		
 	}

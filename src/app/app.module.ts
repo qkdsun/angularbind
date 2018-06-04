@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { BindComponent } from './bind/bind.component';
 import { ReactiveComponent } from './reactive/reactive.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MypipePipe } from './pipe/mypipe.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     BindComponent,
-    ReactiveComponent
+    ReactiveComponent,
+    MypipePipe
   ],
   imports: [
     BrowserModule,
